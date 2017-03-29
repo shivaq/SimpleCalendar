@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
         java.text.DateFormat dateFormat3 = android.text.format.DateFormat.getLongDateFormat(this);
         java.text.DateFormat timeFormat = android.text.format.DateFormat.getTimeFormat(this);
 
-
         String date1 = "shortFormat  " + dateFormat1.format(mDate);
         String date2 = "mediumFormat  " + dateFormat2.format(mDate);
         String date3 = "longFormat  " + dateFormat3.format(mDate);
@@ -47,15 +46,6 @@ public class MainActivity extends AppCompatActivity {
         mTxtDate3.setText(date3);
         mTxtDate4.setText(date4);
         mTxtDate5.setText(time);
-
-        /**
-         * android.text.format.DateFormat.getDateFormat(context)
-         *
-         *
-         *
-         *
-         *
-         */
 
     }
 }
